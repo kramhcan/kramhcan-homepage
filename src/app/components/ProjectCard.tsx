@@ -14,7 +14,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl }: ProjectCardProps) =
         <div>
             <div
                 className="h-52 md:h-72 rounded-t-xl relative group"
-                style={{ background: `url(${imgUrl})`, backgroundSize: 'cover' }}>
+                style={{ background: `${imgUrl}`, backgroundSize: 'cover' }}>
                 <div className='overlay absolute top-0 left-0 w-full h-full bg-[#1f1f1f] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 items-center justify-center'>
                     <Link href={gitUrl} className='h-14 w-14 border-2 relative rounded-full border-[#adadad] hover:border-white group/link'>
                         <CodeBracketIcon className='h-10 w-10 text-[#adadad] group-hover/link:text-white cursor-pointer hover:white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'></CodeBracketIcon>
