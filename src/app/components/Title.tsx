@@ -21,7 +21,7 @@ const Title = () => {
                             Hey
                         </span>
                         <span>
-                            , I'm {" "}
+                            , I&apos;m {" "}
                         </span>
                         <br></br>
                         <TypeAnimation
