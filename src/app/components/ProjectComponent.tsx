@@ -8,14 +8,14 @@ const projectsData = [
         id: 1,
         title: "React Portfolio",
         description: "This is my portfolio website built using Next.js React and Tailwind CSS",
-        image: "../../../images/Placeholder.jpg",
+        image: "https://kramhcan.github.io/kramhcan-homepage/images/Placeholder.jpg",
         gitUrl: "https://github.com/kramhcan/kramhcan-homepage"
     },
     {
         id: 2,
         title: "Final Year Project",
         description: "This is my final year project for my Degree program at Asia Pacific University.",
-        image: "../../../images/APU-001-01.jpg",
+        image: "https://kramhcan.github.io/kramhcan-homepage/images/APU-001-01.jpg",
         gitUrl: "https://github.com/kramhcan/FYP"
     }
 ]
