@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Title from './components/Title';
 import AboutMe from './components/AboutMe';
 import ProjectComponent from './components/ProjectComponent';
+import ContactComponent from './components/ContactComponent';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Title />
         <AboutMe />
         <ProjectComponent />
+        <ContactComponent />
       </div>
     </main>
   );

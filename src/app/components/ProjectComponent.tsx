@@ -41,7 +41,6 @@ const ProjectComponent = () => {
                         initial='initial'
                         animate={inView ? 'animate' : 'initial'}
                         transition={{ duration: 0.3, delay: project.id * 0.4 }}
-
                         className='list-none'
                     >
                         <ProjectCard
