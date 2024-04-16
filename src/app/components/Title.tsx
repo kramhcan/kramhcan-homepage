@@ -43,9 +43,9 @@ const Title = () => {
                     <p className='text-[#f4f8fa] text-base lg:text-xl mb-5'>
                         Born and raised in Subang Jaya. Graduated at Asia Pacific University. Ready to see what the world has to offer.
                     </p>
-                    <div>
-                        <button className='font-bold px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-black mt-3'>Download My CV</button>
-                    </div>
+                    <a href='#contact'>
+                        <button className='font-bold px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-black mt-3'>Contact Me</button>
+                    </a>
                 </div>
 
                 <div className='col-span-5 place-self-center mt-5 lg:mt-0'>
