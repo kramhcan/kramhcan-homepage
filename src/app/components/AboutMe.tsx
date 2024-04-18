@@ -12,7 +12,7 @@ const TAB_DATA = [
         id: 'skills',
         content: (
             <div className='bg-[#1f1f1f] rounded-lg max-h-[350px] overflow-y-scroll'>
-                <ul className='list-inside list-disc pl-2'>
+                <ul className='list-inside list-disc pl-2 md:columns-2'>
                     <li>Python</li>
                     <li>R</li>
                     <li>SQL</li>
